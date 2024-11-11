@@ -15,7 +15,7 @@ This command:
 - Runs for 30 seconds (-d30s).
 
 ```shell
-wrk -t4 -c1000 -d30s http://localhost:8080/fibonacci?n=40
+wrk -t4 -c1000 -d30s "http://localhost:8080/fibonacci?n=40"
 ```
 
 #### Results with a 2021 MacBook Pro
